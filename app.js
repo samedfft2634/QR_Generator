@@ -20,7 +20,7 @@ const getData = () => {
 		generateImg.style.outlineOffset = ".5rem";
         document.getElementById("generateHref").href = typeInput
 	}
-
+    
 };
 
 inputQr.addEventListener("input", getData);
